@@ -1,0 +1,52 @@
+PODS:
+  - dot-core (8.0.0)
+  - dot-document-commons (8.0.0)
+  - dot-nfc (8.0.0):
+    - dot-core (= 8.0.0)
+    - dot-document-commons (= 8.0.0)
+    - dot-openssl (= 1.2.1)
+  - dot-openssl (1.2.1)
+  - NFCPassportReader (2.1.1):
+    - OpenSSL-Universal (= 1.1.1900)
+  - OpenSSL-Universal (1.1.1900)
+  - TensorFlowLiteC (2.3.0):
+    - TensorFlowLiteC/Core (= 2.3.0)
+  - TensorFlowLiteC/Core (2.3.0)
+  - TensorFlowLiteSwift (2.3.0):
+    - TensorFlowLiteSwift/Core (= 2.3.0)
+  - TensorFlowLiteSwift/Core (2.3.0):
+    - TensorFlowLiteC (= 2.3.0)
+
+DEPENDENCIES:
+  - dot-nfc
+  - NFCPassportReader (from `../..`)
+  - TensorFlowLiteSwift (~> 2.3.0)
+
+SPEC REPOS:
+  https://github.com/innovatrics/innovatrics-podspecs:
+    - dot-core
+    - dot-document-commons
+    - dot-nfc
+    - dot-openssl
+  trunk:
+    - OpenSSL-Universal
+    - TensorFlowLiteC
+    - TensorFlowLiteSwift
+
+EXTERNAL SOURCES:
+  NFCPassportReader:
+    :path: "../.."
+
+SPEC CHECKSUMS:
+  dot-core: a70ab5229c053be97f3affb51f5564e3794ba9e4
+  dot-document-commons: 1406006227b1239401a9e17ec8420b2688c17753
+  dot-nfc: f3e7e7d13f680d5eb877d5f6caeba717c2c829b6
+  dot-openssl: 346aff5ae748fe7e5ead445ffb343b00e3a0402f
+  NFCPassportReader: e931c61c189e08a4b4afa0ed4014af19eab2f129
+  OpenSSL-Universal: 84efb8a29841f2764ac5403e0c4119a28b713346
+  TensorFlowLiteC: 51f50caf5777f740a70e2c1a5dbdc149e7aeb50b
+  TensorFlowLiteSwift: fb152cc1eec36b25b03a23c07f5d58113170af58
+
+PODFILE CHECKSUM: b6cc8a0552dcd669a610f6e1962d49dcd7c8da2b
+
+COCOAPODS: 1.15.2

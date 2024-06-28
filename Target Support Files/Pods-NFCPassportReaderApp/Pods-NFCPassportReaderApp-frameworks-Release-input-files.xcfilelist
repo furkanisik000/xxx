@@ -1,0 +1,7 @@
+${PODS_ROOT}/Target Support Files/Pods-NFCPassportReaderApp/Pods-NFCPassportReaderApp-frameworks.sh
+${BUILT_PRODUCTS_DIR}/NFCPassportReader/NFCPassportReader.framework
+${PODS_XCFRAMEWORKS_BUILD_DIR}/OpenSSL-Universal/OpenSSL.framework/OpenSSL
+${PODS_XCFRAMEWORKS_BUILD_DIR}/dot-core/DotCore.framework/DotCore
+${PODS_XCFRAMEWORKS_BUILD_DIR}/dot-document-commons/DotDocumentCommons.framework/DotDocumentCommons
+${PODS_XCFRAMEWORKS_BUILD_DIR}/dot-nfc/DotNfc.framework/DotNfc
+${PODS_XCFRAMEWORKS_BUILD_DIR}/dot-openssl/DotOpenSSL.framework/DotOpenSSL
